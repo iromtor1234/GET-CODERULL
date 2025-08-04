@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar - Berteman Pixel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="pixel-container">
+        <header class="pixel-header">
+            <h1>DAFTAR AKUN BARU</h1>
+            <a href="index.html" class="pixel-back">← Kembali</a>
+        </header>
+
+        <main class="pixel-main">
+            <form id="registerForm" class="pixel-form">
+                <div class="form-group">
+                    <label for="regUsername">Username:</label>
+                    <input type="text" id="regUsername" name="username" class="pixel-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regEmail">Email:</label>
+                    <input type="email" id="regEmail" name="email" class="pixel-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regPassword">Password:</label>
+                    <input type="password" id="regPassword" name="password" class="pixel-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regConfirm">Konfirmasi Password:</label>
+                    <input type="password" id="regConfirm" name="confirm" class="pixel-input" required>
+                </div>
+                
+                <button type="submit" class="pixel-btn">DAFTAR</button>
+                
+                <p class="form-footer">
+                    Sudah punya akun? <a href="login.html">Masuk disini</a>
+                </p>
+            </form>
+        </main>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
